@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+section .background {
+    position: absolute;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(126, 126, 126)); */
+    filter: blur(40px);
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    position: absolute;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(126, 126, 126)); */
+    filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+}
+
+.topcard {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.container {
+    padding: 1.5%;
+    width: 800px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.HeadingMaterial {
+    text-align: center;
+}
+
+.receivedForm {
+    margin-left: 10%;
+}
+
+.At {
+    margin-left: 10%;
+}
+
+.Date {
+    margin-left: 10%;
+}
+
+.PurchaseOrderNumber {
+    margin-top: -25%;
+    margin-left: 68%;
+}
+
+.BillInvoiceNumber {
+    margin-left: 68%;
+}
+
+.DeliveryChalanNumber {
+    margin-left: 71.6%;
+}
+
+table {
+    width: 100%;
+    padding: 2px;
+}
+
+tr {
+    border-collapse: collapse;
+}
+
+.ReceivedBy {
+    margin-left: 10%;
+}
+
+.UnpackedBy {
+    margin-left: 10%;
+}
+
+.VerifiedBy {
+    margin-top: -17%;
+    margin-left: 68%;
+}
+
+.SdApprovedBy {
+    margin-left: 68%;
+}
+
+.submit {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 40%;
+}
+
+.next {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 65%;
+}
+
+.previous {
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 20%;
+}
+
+button a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.748);
+}
+
+button {
+    width: 2.5cm;
+    height: 1cm;
+    background: rgba(65, 201, 255, 0.363);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.forminput {
+    width: 4.5cm;
+    height: 0.7cm;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tableinput {
+    width: 3.2cm;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-color: rgba(255, 255, 255, 0.2);
+}
